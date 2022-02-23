@@ -19,3 +19,15 @@ padding: 1rem 1.5rem;
     padding: 30px;
     line-height: 1.8;
 }
+.articles img{
+    max-width: 75%;
+}
+
+.menu{
+    padding: 1rem;
+    background: #a959bb
+}
+.menu i{
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
