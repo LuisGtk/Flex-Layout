@@ -1,0 +1,18 @@
+html{
+    font-size: 12px;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    font-size:1.5rem;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+a.backB{
+background: rgba(0,0,0,0.1);
+border-radius: 4px;
+padding: 1rem 1.5rem;
+}
+
