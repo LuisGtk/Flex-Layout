@@ -6,15 +6,19 @@ body{
     margin: 0;
     font-size:1.5rem;
 }
+h1{
+    margin-right: 3rem;
+}
+/* back button  */
 a{
     color: rgb(0, 0, 0);
     text-decoration: none; 
     background: grey;
     border-radius: 4px;
     padding: 1rem 1rem;
-    box-shadow: 2rem;
+    margin-left: 1rem;
 }
-
+/* lorem text */
 .articles{
     padding: 30px;
     line-height: 1.8;
@@ -22,25 +26,31 @@ a{
 .articles img{
     max-width: 75%;
 }
-/* The Menu classname is the navigation bar */
-.menu{
-    padding: 1rem;
-    background: #a959bb;
-}
-.menu i{
-    font-size: 1.8rem;
-    padding-bottom: 1rem;
-
-}
 .wrapper{
     /* using flex im able to control the order and layout of the content on the page */
     display: flex;
     flex-direction:column ;
 }
 .header{
-    background: #a959bb;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #a959bb;
 }
-
+/* The Menu classname is the navigation bar */
+.menu{
+    padding: .5rem;
+    background: #a959bb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu i{
+    font-size: 1.8rem;
+}
+.menu a{
+    display: flex;
+    align-items: column;
+    justify-content: space-evenly;
+    outline:auto;
+}
