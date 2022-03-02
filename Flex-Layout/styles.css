@@ -11,9 +11,9 @@ h1{
 }
 /* back button  */
 a{
-    background-color: rgba(0, 0, 0, 0.279);
     color: rgb(0, 0, 0);
     text-decoration: none; 
+    background: grey;
     border-radius: 4px;
     padding: 1rem 1rem;
     margin-left: 1rem;
@@ -35,21 +35,18 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:  #ba71ca;
+    background: #a959bb;
 }
 /* The Menu classname is the navigation bar */
 .menu{
     padding: .5rem;
-    background: #ba71ca;
+    background: #a959bb;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
 }
 .menu i{
     font-size: 1.8rem;
-    margin: 1rem;
-    display: flex;
-    align-items: column;
 }
 .menu a{
     display: flex;
